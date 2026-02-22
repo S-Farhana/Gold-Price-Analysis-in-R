@@ -1,14 +1,14 @@
-# 📊 Gold & Financial Market Econometric Analysis (R)
+# Gold & Financial Market Econometric Analysis (R)
 
-## 📌 Overview
+## Overview
 
-This project performs comprehensive financial time series and econometric analysis on Gold and related market indices using R. It integrates statistical testing, regression modeling, dimensionality reduction, seasonal decomposition, and ARIMA forecasting to evaluate price dynamics, market relationships, and predictive performance.
+This project conducts comprehensive financial time series and econometric analysis on Gold and related market indices using R. It integrates statistical testing, regression modeling, dimensionality reduction, seasonal decomposition, and ARIMA forecasting to evaluate price dynamics, market relationships, and predictive performance.
 
 The project demonstrates applied econometrics, hypothesis testing, and time series modeling using real-world financial data.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - Price Elasticity Analysis (log-difference method)
 - Granger Causality Testing
@@ -18,25 +18,25 @@ The project demonstrates applied econometrics, hypothesis testing, and time seri
 - Multiple Linear Regression Modeling
 - ARIMA Time Series Forecasting (Auto ARIMA)
 - Model Evaluation using MAE, MSE, RMSE
-- Goodness-of-Fit Testing (Chi-Square)
+- Chi-Square Goodness-of-Fit Testing
 - Currency Conversion and Comparative Price Visualization
 - Actual vs Predicted Model Comparison
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
-- **R Programming**
-- openxlsx – Excel data import
-- dplyr – Data manipulation
-- ggplot2 – Data visualization
-- forecast – ARIMA modeling and forecasting
-- lmtest – Granger causality testing
-- stats – Regression, PCA, decomposition
+- R Programming
+- openxlsx (Excel data import)
+- dplyr (Data manipulation)
+- ggplot2 (Data visualization)
+- forecast (ARIMA modeling and forecasting)
+- lmtest (Granger causality testing)
+- stats (Regression, PCA, decomposition)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Gold-Market-Analysis/
@@ -48,7 +48,7 @@ Gold-Market-Analysis/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation and Setup
 
 ### 1. Install Required Packages
 
@@ -72,7 +72,7 @@ source("analysis_script.R")
 
 ---
 
-## 📊 Analytical Components
+## Analytical Components
 
 ### Price Elasticity
 Calculates log-differenced elasticity between EU_Price and Volume to measure price responsiveness.
@@ -97,7 +97,7 @@ Applies auto.arima() to generate short-term forecasts and compares time series p
 
 ---
 
-## 📏 Evaluation Metrics
+## Evaluation Metrics
 
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
@@ -107,7 +107,7 @@ Applies auto.arima() to generate short-term forecasts and compares time series p
 
 ---
 
-## 📈 Outputs
+## Outputs
 
 - Statistical test summaries in console
 - PCA scree plot
@@ -119,7 +119,7 @@ Applies auto.arima() to generate short-term forecasts and compares time series p
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze gold price behavior and market interdependencies
 - Test statistical causality between financial indices
